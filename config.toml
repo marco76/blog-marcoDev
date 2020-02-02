@@ -5,6 +5,7 @@ theme = "m10c"
 [params]
 author = "Marco Molteni"
 description = " "
+avatar = "marco.png"
 
 [[params.social]]
   name = "github"
