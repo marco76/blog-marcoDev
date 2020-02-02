@@ -1,0 +1,4 @@
+baseURL: http://marco.dev
+disablePathToLower: true
+languageCode: en-us
+title: Java and Angular in the Cloud

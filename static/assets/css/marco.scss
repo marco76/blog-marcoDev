@@ -1,0 +1,25 @@
+---
+---
+
+.new-logo {
+  display: flex;
+  flex-direction: row;
+}
+
+.new-title {
+  display: flex;
+  flex-direction: column;
+}
+
+.header-post .content {
+  padding-top: 5rem;
+  padding-bottom: 0;
+}
+
+.post-content {
+  padding-top: 10px!important;
+}
+
+.box-body {
+  padding-bottom: 0.5rem!important;
+}

@@ -1,0 +1,16 @@
+baseURL = "https://marco.dev/"
+languageCode = "en-us"
+title = "Java and Angular in the Cloud"
+theme = "m10c"
+[params]
+author = "Marco Molteni"
+description = " "
+
+[[params.social]]
+  name = "github"
+  url = "https://github.com/marco76"
+  [[params.social]]
+    name = "twitter"
+    url = "https://twitter.com/marcomolteni"
+[markup.goldmark.renderer]
+unsafe= true

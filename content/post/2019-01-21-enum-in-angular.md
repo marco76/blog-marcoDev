@@ -1,0 +1,92 @@
+---
+author: Marco Molteni
+categories:
+- Angular, TypeScript, JavaScript
+color: '#7AAB13'
+date: "2019-01-21T01:41:48Z"
+description: ""
+image: /assets/img/
+introduction: How to use enum in the html template
+main-class: angular
+tags:
+- Angular, TypeScript, JavaScript
+title: Enums in Angular templates
+url: /enums-angular
+---
+
+The TypeScript `enum` can be used directly in your class, but it has to be assigned to a local variable to be used in the template.
+ 
+Declaration example:
+
+```typescript
+import { Component } from '@angular/core';
+
+enum LanguageType {Java = 1, 'JavaScript' = 2, "TypeScript" = 3}
+
+@Component({
+  selector: 'my-app',
+  templateUrl: './app.component.html',
+  styleUrls: [ './app.component.css' ]
+})
+export class AppComponent  {
+  languageTypeDeclaredInComponent = LanguageType;
+
+constructor() {
+  // this works
+  console.log("Language Java", LanguageType.Java);
+  // this works
+  console.log("Language JavaScript", this.languageTypeDeclaredInComponent.JavaScript)
+  }
+}
+```
+
+The template can work only with your _local variable_ and not the enum self.
+The template can access only objects exposed by the controller or the component. 
+
+```html
+<p>
+OK, Enum for Java: <i>languageTypeDeclaredInComponent.Java</i> 
+</p>
+<p>
+OK, Validity: <i>languageTypeDeclaredInComponent.Java === 1</i>
+</p>
+<p>
+KO, This doesn't work : <i>LanguageType.Java</i>
+</p>
+```
+
+If you use directly the enum in the template the browser will show the following exception:
+
+`ERROR
+Error: Cannot read property [...] of undefined`
+
+## Transpilation
+
+`enum` doesn't exist in JavaScript. During the transpilation it's converted in an array:
+
+```typescript
+enum ExampleType { Java = 1, 'JavaScript' = 2, TypeScript = 3 };
+```
+
+```javascript
+var ExampleType;
+(function (ExampleType) {
+    ExampleType[ExampleType["Java"] = 1] = "Java";
+    ExampleType[ExampleType["JavaScript"] = 2] = "JavaScript";
+    ExampleType[ExampleType["TypeScript"] = 3] = "TypeScript";
+})(ExampleType || (ExampleType = {}));
+;
+```
+
+## Example
+
+[https://angularenum.stackblitz.io](https://angularenum.stackblitz.io)
+
+## References
+
+[TypeScript reference](https://www.typescriptlang.org/docs/handbook/enums.html)
+
+[Angular -  GitHub: Usage of enums in templates not possible?](https://github.com/angular/angular/issues/2885)
+
+[Angular - GitHub: Allow constants, enums, functions to be used in templates](https://github.com/angular/angular/issues/25963)
+
