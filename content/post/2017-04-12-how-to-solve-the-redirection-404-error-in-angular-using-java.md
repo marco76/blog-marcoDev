@@ -7,7 +7,7 @@ categories:
 color: '#B31917'
 date: "2017-04-12T18:23:29Z"
 id: 1104
-image: /wp-content/uploads/2017/03/logo_ang-100x39.png
+image: /assets/img/wp-content/uploads/2017/03/logo_ang-100x39.png
 main-class: javaee
 tags:
 - Angular

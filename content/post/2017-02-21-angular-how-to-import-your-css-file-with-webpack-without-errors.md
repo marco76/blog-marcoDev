@@ -7,7 +7,7 @@ categories:
 date: "2017-02-21T23:10:21Z"
 guid: http://marco.dev/?p=946
 id: 946
-image: /wp-content/uploads/2017/03/webpack-logo-100x37.png
+image: /assets/img/wp-content/uploads/2017/03/webpack-logo-100x37.png
 main-class: angular
 tags:
 - Angular

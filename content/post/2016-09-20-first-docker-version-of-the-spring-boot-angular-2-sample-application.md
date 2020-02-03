@@ -30,11 +30,11 @@ It&#8217;s only a first test and a lot of work is still needed but you can build
   <span class="s1">docker run &#8211;rm -it -p 8080:8080<span class="Apple-converted-space">  </span>my-java-app java -jar /usr/src/myapp/</span><span class="s2">angular2.jar </span>
 </p>
 
-<img class="alignnone wp-image-39 size-large" src="https://i1.wp.com/marco.dev/wp-content/uploads/2016/09/davis_1.png?resize=945%2C221" alt="davis_1" data-recalc-dims="1" />
+<img class="alignnone wp-image-39 size-large" src="/assets/img/wp-content/uploads/2016/09/davis_1.png?resize=945%2C221" alt="davis_1" data-recalc-dims="1" />
 
 You can see the result on localhost:8080
 
-<img class="alignnone size-medium wp-image-40" src="https://i1.wp.com/marco.dev/wp-content/uploads/2016/09/davis_2.png?resize=300%2C141" alt="davis_2" data-recalc-dims="1" />
+<img class="alignnone size-medium wp-image-40" src="/assets/img/wp-content/uploads/2016/09/davis_2.png?resize=300%2C141" alt="davis_2" data-recalc-dims="1" />
 
 &nbsp;
 

@@ -35,6 +35,6 @@ In your pages you can reference the icons, e.g.:
 with the following result: 
 <a href="http://twitter.com/marcomolteni" target="_blank"><i class="fa fa-twitter fa-2x menu-icon" aria-hidden="true"></i></a>
 
-[<img src="{{site.baseurl}}/assets/img/uploads/2017/07/16/footer.png" alt=""/>]({{site.baseurl}}/assets/img/uploads/2017/07/16/footer.png)
+[<img src="/assets/img/uploads/2017/07/16/footer.png" alt=""/>]({{site.baseurl}}/assets/img/uploads/2017/07/16/footer.png)
 
 Here the list of the available icons [http://fontawesome.io/icons/](http://fontawesome.io/icons/)

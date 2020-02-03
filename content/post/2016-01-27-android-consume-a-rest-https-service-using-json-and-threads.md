@@ -20,7 +20,7 @@ url: /2016/01/27/android-consume-a-rest-https-service-using-json-and-threads/
 ---
 GitHub: <https://github.com/marco76/stockVoiceTicker>
 
-In this example we show how to implement some Android features:<img class="alignright" src="/wp-content/uploads/2016/android_ticker.png" alt="app_screenshot" width="157" height="279" />
+In this example we show how to implement some Android features:<img class="alignright" src="/assets/img/wp-content/uploads/2016/android_ticker.png" alt="app_screenshot" width="157" height="279" />
 
   * Text-to-speech
   * Read a JSON web stream
@@ -87,7 +87,7 @@ Now we have our json result in a String. We can easily transform the String in a
 
 Because of the nature of the answer (multiple level JSON objects) we have to create a new JSON object for each level
 
-<a href="{{site.baseurl}}/assets/img/uploads/2016/01/json_multiple.png" rel="attachment wp-att-528"><img class="alignnone size-medium wp-image-528" src="{{site.baseurl}}/assets/img/uploads/2016/01/json_multiple.png?resize=300%2C124" alt="json_multiple" data-recalc-dims="1" /></a>
+<a href="{{site.baseurl}}/assets/img/uploads/2016/01/json_multiple.png" rel="attachment wp-att-528"><img class="alignnone size-medium wp-image-528" src="/assets/img/uploads/2016/01/json_multiple.png?resize=300%2C124" alt="json_multiple" data-recalc-dims="1" /></a>
 
 <pre class="brush: java; title: ; notranslate" title="">private String readPrice(String json) throws JSONException {
         JSONObject jsonObject = new JSONObject(json);

@@ -24,7 +24,7 @@ According to the spring documentation it should be possible to set the level of 
 
 The solution is to create a `logback.xml` in the classpath of the test (`[PROJECT_ROOT]/src/test/resources`):
 
-<img src="{{site.baseurl}}/assets/img/uploads/2018/11/2018-08-31_23-19-41.png" />
+<img src="/assets/img/uploads/2018/11/2018-08-31_23-19-41.png" />
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -37,9 +37,9 @@ The solution is to create a `logback.xml` in the classpath of the test (`[PROJEC
 ## Before and after the change
 
 Before:
-<img src="{{site.baseurl}}/assets/img/uploads/2018/11/log_2018-08-31_23-11-24.png" />
+<img src="/assets/img/uploads/2018/11/log_2018-08-31_23-11-24.png" />
 After:
-<img src="{{site.baseurl}}/assets/img/uploads/2018/11/log_2018-08-31_23-12-09.png" />
+<img src="/assets/img/uploads/2018/11/log_2018-08-31_23-12-09.png" />
 
 
 

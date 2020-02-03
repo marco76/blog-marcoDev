@@ -26,7 +26,7 @@ In one project I had the opportunity to develop a Data Grid with expandable rows
 
 The original [DataTable](https://material.angular.io/components/table/overview) don't support expandable rows, with a bit of research and many trial and error we succeeded to build a pretty good component.
 
-<img src="{{site.baseurl}}/assets/img/uploads/2018/05/grid_twitter.gif" />
+<img src="/assets/img/uploads/2018/05/grid_twitter.gif" />
 
 With a very ambitious approach we decided to automatically generate the forms of the grid (dates, booleans, selects, texts) using an optional JSON configuration object.
 

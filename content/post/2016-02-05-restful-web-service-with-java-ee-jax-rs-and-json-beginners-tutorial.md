@@ -40,7 +40,7 @@ In the tutorial:
 
 For this example we create 4 java classes (2 for the code, 1 for the unit test, 1 for the integration test).
 
-<a href="https://i0.wp.com/marco.dev/wp-content/uploads/2016/02/2016-02-05_17-48-28.png" rel="attachment wp-att-554"><img src="https://i0.wp.com/marco.dev/wp-content/uploads/2016/02/2016-02-05_17-48-28.png?resize=300%2C270" alt="2016-02-05_17-48-28" class="alignnone size-medium wp-image-554" data-recalc-dims="1" /></a>
+<a href=/assets/img/wp-content/uploads/2016/02/2016-02-05_17-48-28.png" rel="attachment wp-att-554"><img src="/assets/img/wp-content/uploads/2016/02/2016-02-05_17-48-28.png?resize=300%2C270" alt="2016-02-05_17-48-28" class="alignnone size-medium wp-image-554" data-recalc-dims="1" /></a>
 
 ## Configuration
 
@@ -103,7 +103,7 @@ In this class we declare 1 method that return a simple text:
 
 This method return a simple text (no HTML) that is shown in the browser:
 
-<a href="{{site.baseurl}}/assets/img/uploads/2016/02/2016-02-05_17-01-34.png" rel="attachment wp-att-542"><img class="alignnone size-medium wp-image-542" src="{{site.baseurl}}/assets/img/uploads/2016/02/2016-02-05_17-01-34.png?resize=300%2C39" alt="2016-02-05_17-01-34" data-recalc-dims="1" /></a>
+<a href="{{site.baseurl}}/assets/img/uploads/2016/02/2016-02-05_17-01-34.png" rel="attachment wp-att-542"><img class="alignnone size-medium wp-image-542" src="/assets/img/uploads/2016/02/2016-02-05_17-01-34.png?resize=300%2C39" alt="2016-02-05_17-01-34" data-recalc-dims="1" /></a>
 
 ### Java List to JSON Array answer
 
@@ -124,11 +124,11 @@ public List&lt;String&gt; helloJSONList(){
 
 @Produces: defines in which format the answer should be returned. It automatically transform our object (List of strings) in JSON format.
 
-<a href="https://i1.wp.com/marco.dev/wp-content/uploads/2016/02/2016-02-05_17-05-36.png" rel="attachment wp-att-543"><img class="alignnone size-medium wp-image-543" src="https://i1.wp.com/marco.dev/wp-content/uploads/2016/02/2016-02-05_17-05-36.png?resize=300%2C41" alt="2016-02-05_17-05-36" data-recalc-dims="1" /></a>
+<a href=/assets/img/wp-content/uploads/2016/02/2016-02-05_17-05-36.png" rel="attachment wp-att-543"><img class="alignnone size-medium wp-image-543" src="/assets/img/wp-content/uploads/2016/02/2016-02-05_17-05-36.png?resize=300%2C41" alt="2016-02-05_17-05-36" data-recalc-dims="1" /></a>
 
 Netbeans recognize the services declared in this class and show them in the project structure:
 
-<a href="{{site.baseurl}}/assets/img/uploads/2016/02/2016-02-05_17-29-33.png" rel="attachment wp-att-547"><img src="{{site.baseurl}}/assets/img/uploads/2016/02/2016-02-05_17-29-33.png?resize=293%2C109" alt="2016-02-05_17-29-33" class="alignnone size-full wp-image-547" data-recalc-dims="1" /></a>
+<a href="{{site.baseurl}}/assets/img/uploads/2016/02/2016-02-05_17-29-33.png" rel="attachment wp-att-547"><img src="/assets/img/uploads/2016/02/2016-02-05_17-29-33.png?resize=293%2C109" alt="2016-02-05_17-29-33" class="alignnone size-full wp-image-547" data-recalc-dims="1" /></a>
 
 To transform Java Objects in JSON and vice versa we need to import some converters in our project to avoid some MessageBodyWriter or MessageBodyReader media type error:
 

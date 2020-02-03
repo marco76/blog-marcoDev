@@ -48,9 +48,9 @@ java -jar ./target/ng-spring-full-app-0.0.1-SNAPSHOT.war
 You can access the application on http://localhost:8080
 ```
 
-<img src="{{site.baseurl}}/assets/img/uploads/2017/09/2017-09-09_23-26-04.png" alt=""/>
+<img src="/assets/img/uploads/2017/09/2017-09-09_23-26-04.png" alt=""/>
 
-<img src="{{site.baseurl}}/assets/img/uploads/2017/09/2017-09-09_23-30-57.png" alt=""/>
+<img src="/assets/img/uploads/2017/09/2017-09-09_23-30-57.png" alt=""/>
 
 ## Build and run in development
  

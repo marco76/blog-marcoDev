@@ -29,7 +29,7 @@ Spring Boot offers us easy to use features to test our REST service. Our goal is
 
 Here we are not interested to test the services layer or the database. For this reason we have to mock everything is around the controller.
 
-<img class="alignnone size-full wp-image-809" src="https://i1.wp.com/marco.dev/wp-content/uploads/2017/01/Test.png?resize=400%2C305" data-recalc-dims="1" />
+<img class="alignnone size-full wp-image-809" src="/assets/img/wp-content/uploads/2017/01/Test.png?resize=400%2C305" data-recalc-dims="1" />
 
 ### Code sample
 

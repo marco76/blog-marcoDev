@@ -35,7 +35,7 @@ A lot changed from the first publication of the article (new versions of Angular
 I'm creating a new demo using Spring Boot, Angular (currently v. 5 beta) and Material Design.
 The demo is more than a simple hello world and will collect the best practices for an enterprise development.
 
-<img class="alignnone wp-image-902 size-full" src="{{site.baseurl}}/assets/img/uploads/2017/08/07/architecture.png" data-recalc-dims="1" />
+<img class="alignnone wp-image-902 size-full" src="/assets/img/uploads/2017/08/07/architecture.png" data-recalc-dims="1" />
 
 The goals are the following:
 - show the integration between Spring and Angular
@@ -79,7 +79,7 @@ _are updated regularly_ and I will try to show the new features of Spring and 
 
   *   * *Here the old article. New articles will follow. Here some examples of the interface: 
 
-[<img class="alignnone size-large wp-image-888" src="https://i1.wp.com/marco.dev/wp-content/uploads/2016/02/1.png?resize=945%2C472" alt="" data-recalc-dims="1" />]({{site.baseurl}}/assets/img/uploads/2016/02/1-e1486679732769.png)[<img class="alignnone size-full wp-image-889" src="https://i1.wp.com/marco.dev/wp-content/uploads/2016/02/2-e1486679774449.png?resize=400%2C242" alt="" data-recalc-dims="1" />](https://i1.wp.com/marco.dev/wp-content/uploads/2016/02/2-e1486679774449.png)
+[<img class="alignnone size-large wp-image-888" src="/assets/img/wp-content/uploads/2016/02/1.png?resize=945%2C472" alt="" data-recalc-dims="1" />]({{site.baseurl}}/assets/img/uploads/2016/02/1-e1486679732769.png)[<img class="alignnone size-full wp-image-889" src="/assets/img/wp-content/uploads/2016/02/2-e1486679774449.png?resize=400%2C242" alt="" data-recalc-dims="1" />](https://marco.dev/assets/img/wp-content/uploads/2016/02/2-e1486679774449.png)
 
 ### **Deployment architecture**
 
@@ -105,7 +105,7 @@ open your browser and visit http://localhost:8082
 
 In the example application (
   
-<http://angular.cafe/app-hello-world>) there is a very simple example of communication between the frontend and the backend. [<img class="alignnone size-full wp-image-1038" src="https://i0.wp.com/marco.dev/wp-content/uploads/2016/02/2017-03-08_23-51-04.png?resize=469%2C202" alt="" data-recalc-dims="1" />](https://i0.wp.com/marco.dev/wp-content/uploads/2016/02/2017-03-08_23-51-04.png) The frontend calls the backend service and &#8216;subscribes&#8217; the answer. The frontend waits backend answer before to execute the code in the subscription part: Code on GitHub: <https://github.com/marco76/SpringAngular2TypeScript/tree/master/webClient/src/app/hello-world> **The Controller**
+<http://angular.cafe/app-hello-world>) there is a very simple example of communication between the frontend and the backend. [<img class="alignnone size-full wp-image-1038" src="/assets/img/wp-content/uploads/2016/02/2017-03-08_23-51-04.png?resize=469%2C202" alt="" data-recalc-dims="1" />](https://marco.dev/assets/img/wp-content/uploads/2016/02/2017-03-08_23-51-04.png) The frontend calls the backend service and &#8216;subscribes&#8217; the answer. The frontend waits backend answer before to execute the code in the subscription part: Code on GitHub: <https://github.com/marco76/SpringAngular2TypeScript/tree/master/webClient/src/app/hello-world> **The Controller**
 
     export class HelloWorld {
         // string to publish on the screen

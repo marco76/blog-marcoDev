@@ -13,7 +13,7 @@ url: /2016/04/21/what-java-threads/
 ---
 You started your ‘Hello World’ Java application and Visual VM … what are all those threads???
 
-<img src="https://i1.wp.com/marco.dev/wp-content/uploads/2016/04/1461248796_thumb.png" align="middle" class="aligncenter" data-recalc-dims="1" />
+<img src="/assets/img/wp-content/uploads/2016/04/1461248796_thumb.png" align="middle" class="aligncenter" data-recalc-dims="1" />
 
   * main: the application you started with the main method
   * Signal Dispatcher: it handles the signals sent from the OS to the JVM

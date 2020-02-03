@@ -24,7 +24,7 @@ url: /2017/11/24/spring-cache-hazelcast/
 
 For most of the professional applications the use of some form of caching is required to improve the performances and to reduce the interactions with slow medias (database, disk, external services etc.)
 
-<img src="{{site.baseurl}}/assets/img/uploads/2017/11/cache-schema.png" />
+<img src="/assets/img/uploads/2017/11/cache-schema.png" />
 
 ## Example of publishing our pages without cache
 

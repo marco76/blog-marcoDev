@@ -38,7 +38,7 @@ The client has to login with the Authorization Server, this can be connected to 
   
 Here described the communication:
 
-[<img class="aligncenter" src="{{site.baseurl}}/assets/img/uploads/2017/01/oauth2-1-1.png?resize=644%2C547" align="middle" data-recalc-dims="1" />]({{site.baseurl}}/assets/img/uploads/2017/01/oauth2-1_full.png)
+[<img class="aligncenter" src="/assets/img/uploads/2017/01/oauth2-1-1.png?resize=644%2C547" align="middle" data-recalc-dims="1" />]({{site.baseurl}}/assets/img/uploads/2017/01/oauth2-1_full.png)
 
 &nbsp;
 

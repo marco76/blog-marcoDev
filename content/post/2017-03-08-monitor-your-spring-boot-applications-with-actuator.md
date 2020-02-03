@@ -5,7 +5,7 @@ categories:
 date: "2017-03-08T00:09:26Z"
 guid: http://marco.dev/?p=1024
 id: 1024
-image: /wp-content/uploads/2017/03/header-springboot-100x23.png
+image: /assets/img/wp-content/uploads/2017/03/header-springboot-100x23.png
 main-class: spring
 tags:
 - actuator
@@ -40,6 +40,6 @@ You can see some examples of the result on my sample website:
 
 <http://angular.cafe/app-spring-monitoring>
 
-<img class="alignnone size-full wp-image-1022" src="{{site.baseurl}}/assets/img/uploads/2017/03/monitoring_2.png?resize=106%2C138" data-recalc-dims="1" />
+<img class="alignnone size-full wp-image-1022" src="/assets/img/uploads/2017/03/monitoring_2.png?resize=106%2C138" data-recalc-dims="1" />
 
-<img class="alignnone size-full wp-image-1023" src="{{site.baseurl}}/assets/img/uploads/2017/03/monitoring_1.png?resize=300%2C475" data-recalc-dims="1" />
+<img class="alignnone size-full wp-image-1023" src="/assets/img/uploads/2017/03/monitoring_1.png?resize=300%2C475" data-recalc-dims="1" />

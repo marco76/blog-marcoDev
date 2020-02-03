@@ -29,7 +29,7 @@ As usual you can find the source on github:
   
 <https://github.com/marco76/minimvc>
 
-[<img src="https://i1.wp.com/marco.dev/wp-content/uploads/2013/11/mini_mvc_classes.png?resize=222%2C300" alt="mini_mvc_classes" class="alignnone size-medium wp-image-446" data-recalc-dims="1" />](https://i1.wp.com/marco.dev/wp-content/uploads/2013/11/mini_mvc_classes.png)
+[<img src="/assets/img/wp-content/uploads/2013/11/mini_mvc_classes.png?resize=222%2C300" alt="mini_mvc_classes" class="alignnone size-medium wp-image-446" data-recalc-dims="1" />](https://marco.dev/assets/img/wp-content/uploads/2013/11/mini_mvc_classes.png)
 
 ## ThymeleafConfig.java
 
@@ -158,4 +158,4 @@ Eventually, the &#8220;main.html&#8221; page receives and shows the value of the
 
 Here you can see the result:
   
-[<img src="https://i1.wp.com/marco.dev/wp-content/uploads/2013/11/mini_mvc_result.png?resize=300%2C110" alt="mini_mvc_result" class="alignnone size-medium wp-image-445" data-recalc-dims="1" />](https://i1.wp.com/marco.dev/wp-content/uploads/2013/11/mini_mvc_result.png)
+[<img src="/assets/img/wp-content/uploads/2013/11/mini_mvc_result.png?resize=300%2C110" alt="mini_mvc_result" class="alignnone size-medium wp-image-445" data-recalc-dims="1" />](https://marco.dev/assets/img/wp-content/uploads/2013/11/mini_mvc_result.png)

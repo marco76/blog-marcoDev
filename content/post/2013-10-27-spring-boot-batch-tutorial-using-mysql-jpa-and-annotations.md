@@ -50,14 +50,14 @@ The main difficulties I encountered:
 For the example we load a fixed line flat file in a MySql database.
   
 Here the content of the file:
-[<img src="{{site.baseurl}}/assets/img/uploads/2013/10/spring_boot_personData.png"/>]({{site.baseurl}}/assets/img/uploads/2013/10/spring_boot_personData.png)
+[<img src="/assets/img/uploads/2013/10/spring_boot_personData.png"/>]({{site.baseurl}}/assets/img/uploads/2013/10/spring_boot_personData.png)
 
 Here the result in the DB:
-[<img src="{{site.baseurl}}/assets/img/uploads/2013/10/spring_boot_mysqlresult.png"/>]({{site.baseurl}}/assets/img/uploads/2013/10/spring_boot_mysqlresult.png)
+[<img src="/assets/img/uploads/2013/10/spring_boot_mysqlresult.png"/>]({{site.baseurl}}/assets/img/uploads/2013/10/spring_boot_mysqlresult.png)
 
 Directory structure:
 
-[<img src="{{site.baseurl}}/assets/img/uploads/2013/10/spring_boot_classes.png"/>]({{site.baseurl}}/assets/img/uploads/2013/10/spring_boot_classes.png)
+[<img src="/assets/img/uploads/2013/10/spring_boot_classes.png"/>]({{site.baseurl}}/assets/img/uploads/2013/10/spring_boot_classes.png)
 
 ### pom.xml
 

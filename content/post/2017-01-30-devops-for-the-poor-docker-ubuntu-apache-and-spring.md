@@ -31,7 +31,7 @@ Easily automatically deploy more applications on the web (www.mydomain.com, www.
   
 To give an idea about the prices a small app running on a DevOps cloud solution (1 GB RAM) cost around $30 per month, with a basic VPS and docker only $3-5 (2GB RAM for more apps!).
 
-<img class="alignnone size-full wp-image-819" src="https://i0.wp.com/marco.dev/wp-content/uploads/2017/01/blog_vps.png?resize=600%2C531" data-recalc-dims="1" />
+<img class="alignnone size-full wp-image-819" src="/assets/img/wp-content/uploads/2017/01/blog_vps.png?resize=600%2C531" data-recalc-dims="1" />
 
 #### What we need
 

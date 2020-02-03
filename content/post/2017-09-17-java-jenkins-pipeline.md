@@ -22,7 +22,7 @@ url: /2017/09/17/build-test-and-deploy-with-jenkins/
 
 To build and deploy this website we use Jenkins (available here: javaee.cloud:8081/job/java-demo-pipeline/)
 
-<img src="{{site.baseurl}}/assets/img/uploads/2017/09/jenkins/jenkins-pipeline.png" />
+<img src="/assets/img/uploads/2017/09/jenkins/jenkins-pipeline.png" />
 
 ## Automatically build after GitHub commits
 
@@ -30,15 +30,15 @@ Install the [GitHub plugin in Jenkins](https://wiki.jenkins.io/display/JENKINS/G
 
 In your the Jenkins pipeline configuration of your project select the option 'GitHub hook trigger for GITScm polling'.
  
-<img src="{{site.baseurl}}/assets/img/uploads/2017/09/jenkins/jenkins-githook.png" />
+<img src="/assets/img/uploads/2017/09/jenkins/jenkins-githook.png" />
 
 You have to add a WebHook to your GitHub project that points to your Jenkins installation.
 
-<img src="{{site.baseurl}}/assets/img/uploads/2017/09/jenkins/github-hook.png" />
+<img src="/assets/img/uploads/2017/09/jenkins/github-hook.png" />
 
 ## Jenkins Pipeline Script
 
-<img src="{{site.baseurl}}/assets/img/uploads/2017/09/jenkins/jenkins-build.png" />
+<img src="/assets/img/uploads/2017/09/jenkins/jenkins-build.png" />
 
 In the pipeline we use the following script, the credentials for Docker Hub / Docker Cloud are stored in Jenkins.
 

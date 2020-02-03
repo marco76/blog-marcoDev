@@ -4,7 +4,7 @@ categories:
 - Angular
 - AngularJS
 date: "2017-03-19T19:57:07Z"
-image: /wp-content/uploads/2017/03/angularjs-logo-100x27.png
+image: /assets/img/wp-content/uploads/2017/03/angularjs-logo-100x27.png
 main-class: angular
 tags:
 - angularjs

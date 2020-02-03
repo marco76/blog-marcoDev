@@ -10,7 +10,7 @@ categories:
 - Vue
 color: '#B31917'
 date: "2017-04-06T13:38:58Z"
-image: /wp-content/uploads/2017/03/logo_ang-100x39.png
+image: /assets/img/wp-content/uploads/2017/03/logo_ang-100x39.png
 main-class: javaee
 tags:
 - Angular

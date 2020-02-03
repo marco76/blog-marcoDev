@@ -8,7 +8,7 @@ dsq_thread_id:
 - "5566114273"
 guid: http://marco.dev/?p=870
 id: 870
-image: /wp-content/uploads/2017/02/Docker_container_engine_logo-100x27.png
+image: /assets/img/wp-content/uploads/2017/02/Docker_container_engine_logo-100x27.png
 main-class: cloud
 tags:
 - docker

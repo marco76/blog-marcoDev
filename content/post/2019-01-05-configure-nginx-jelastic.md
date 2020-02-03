@@ -18,9 +18,9 @@ url: /nginx-jelastic
 
 Select the config icon in the Load Balancer service/node.
 
-[<img src="{{site.baseurl}}/assets/img/uploads/2019/nginx_1.jpg" alt=""/>]({{site.baseurl}}/assets/img/uploads/2019/nginx_1.jpg)
+[<img src="/assets/img/uploads/2019/nginx_1.jpg" alt=""/>]({{site.baseurl}}/assets/img/uploads/2019/nginx_1.jpg)
 
-[<img src="{{site.baseurl}}/assets/img/uploads/2019/nginx_2.jpg" alt=""/>]({{site.baseurl}}/assets/img/uploads/2019/nginx_2.jpg)
+[<img src="/assets/img/uploads/2019/nginx_2.jpg" alt=""/>]({{site.baseurl}}/assets/img/uploads/2019/nginx_2.jpg)
 
 
 

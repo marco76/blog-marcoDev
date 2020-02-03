@@ -31,7 +31,7 @@ To help with the test I created a simple generator of GPS coordinates based on t
 
 [Here the package NPM](https://www.npmjs.com/package/@molteni/coordinate-utils) and the code source [GitHub](https://github.com/marco76/CoordinateUtils)
 
-<img src="{{site.baseurl}}/assets/img/uploads/2018/03/map_1.jpg" />
+<img src="/assets/img/uploads/2018/03/map_1.jpg" />
 
 The coordinates of the 3 cook's hats are generated from the library. The green point is the current position.
 

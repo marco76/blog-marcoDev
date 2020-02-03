@@ -21,13 +21,13 @@ url: /2017/10/01/spring-boot-test-controller/
 
 The annotation `@WebMvcTest` configure only the components that usually interest the web development.
  
-<img src="{{site.baseurl}}/assets/img/uploads/2017/10/spring_test_annotation_1.png"/>
+<img src="/assets/img/uploads/2017/10/spring_test_annotation_1.png"/>
 
 As shown in the image `@Service` and `@Repository`are not configured.
 
 When we call the `@Service` from the `@Controller` we return the mocked object.
 
-<img src="{{site.baseurl}}/assets/img/uploads/2017/10/spring-mock.png"/>
+<img src="/assets/img/uploads/2017/10/spring-mock.png"/>
 
 # Controller example
 

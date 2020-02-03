@@ -11,7 +11,7 @@ excerpt: |
   Why we don’t develop a methodology specific to our technology stack?
 guid: http://marco.dev/?p=709
 id: 709
-image: /wp-content/uploads/2016/10/1475832328_featured-1-e1476167480550.jpeg
+image: /assets/img/wp-content/uploads/2016/10/1475832328_featured-1-e1476167480550.jpeg
 main-class: other
 published: false
 tags:

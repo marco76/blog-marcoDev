@@ -24,7 +24,7 @@ For example you need to count the days between the 1st of January 2019 and the 3
 
 The pitfall of these methods is that the first temporal object is inclusive and the second temporal object is exclusive.
 
-<img src="{{site.baseurl}}/assets/img/uploads/2019/between.jpg" alt=""/>
+<img src="/assets/img/uploads/2019/between.jpg" alt=""/>
 
 In the first test you can see that between January 1st and December 31 there are 364 days because interval between the 2 dates doesn't include 365 full days.
 

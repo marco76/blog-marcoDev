@@ -20,7 +20,7 @@ Differences between the protected and the default/package-private access.
 
 Quick overview, this is a typical interview question.
 
-[<img src="{{site.baseurl}}/assets/img/uploads/2019/protected_exp_svg.svg" alt=""/>]({{site.baseurl}}/assets/img/uploads/2019/protected_exp_svg.svg)
+[<img src="/assets/img/uploads/2019/protected_exp_svg.svg" alt=""/>]({{site.baseurl}}/assets/img/uploads/2019/protected_exp_svg.svg)
 
 In short:
 

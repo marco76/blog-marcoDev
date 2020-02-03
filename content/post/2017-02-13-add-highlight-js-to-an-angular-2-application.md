@@ -11,7 +11,7 @@ dsq_thread_id:
 - "5565701684"
 guid: http://marco.dev/?p=904
 id: 904
-image: /wp-content/uploads/2017/03/logo-highlightjs-100x38.png
+image: /assets/img/wp-content/uploads/2017/03/logo-highlightjs-100x38.png
 main-class: angular
 tags:
 - Angular
@@ -52,8 +52,8 @@ export class HighlightCodeDirective implements AfterViewInit{
 
 The html code of the example:
 
-<img class="alignnone wp-image-902 size-full" src="{{site.baseurl}}/assets/img/uploads/2017/02/blog_highlight_small-e1487011265898.png?resize=600%2C411" data-recalc-dims="1" />
+<img class="alignnone wp-image-902 size-full" src="/assets/img/uploads/2017/02/blog_highlight_small-e1487011265898.png?resize=600%2C411" data-recalc-dims="1" />
 
 and the result:
 
-<img class="alignnone wp-image-903 size-full" src="https://i0.wp.com/marco.dev/wp-content/uploads/2017/02/blog_highlight_2_small-1-e1487011315602.png?resize=600%2C647" data-recalc-dims="1" />
+<img class="alignnone wp-image-903 size-full" src="/assets/img/wp-content/uploads/2017/02/blog_highlight_2_small-1-e1487011315602.png?resize=600%2C647" data-recalc-dims="1" />

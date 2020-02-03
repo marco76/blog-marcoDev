@@ -20,7 +20,7 @@ title: 'Angular and JavaScript: export your data to CSV using Typescript'
 url: /2017/03/05/angular-and-javascript-export-your-data-to-csv-using-typescript/
 ---
 
-<img src="{{site.baseurl}}/assets/img/uploads/2017/03/excel.png" />
+<img src="/assets/img/uploads/2017/03/excel.png" />
 
 Npm: <https://www.npmjs.com/package/@molteni/export-csv>
 
@@ -62,7 +62,7 @@ exporter.exportColumnsToCSV(this.blogArticles, "filename")
 ```
 
 #### Code snippet with Angular and UTF-8
-<img src="{{site.baseurl}}/assets/img/uploads/excel_small.jpg" />
+<img src="/assets/img/uploads/excel_small.jpg" />
 
 ```typescript
 exportToCSV = new ExportToCSV();
