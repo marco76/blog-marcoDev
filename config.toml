@@ -2,6 +2,7 @@ baseURL = "https://marco.dev/"
 languageCode = "en-us"
 title = "Java and Angular in the Cloud"
 theme = "mmo"
+googleAnalytics = "UA-39568862-1"
 [params]
 author = "Marco Molteni"
 description = " "
