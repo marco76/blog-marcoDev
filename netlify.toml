@@ -3,7 +3,7 @@ publish = "public"
 command = "hugo --gc --minify"
 
 [build.environment]
-HUGO_THEME = "m10c"
+HUGO_THEME = "m10c2"
 
 [context.production.environment]
 HUGO_VERSION = "0.63.2"
