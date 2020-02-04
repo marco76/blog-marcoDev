@@ -30,6 +30,9 @@
         {{ .Content }}
       {{ end }}
     </main>
+    <div id="commento"></div>
+
   </body>
-{{ template "_internal/google_analytics_async.html" . }}
+  <script src="https://cdn.commento.io/js/commento.js"></script>
+  {{ template "_internal/google_analytics_async.html" . }}
 </html>
