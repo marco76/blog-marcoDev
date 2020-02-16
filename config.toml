@@ -1,13 +1,64 @@
 baseURL = "https://marco.dev/"
 languageCode = "en-us"
 title = "Java and Angular in the Cloud"
-theme = "mmo"
-googleAnalytics = "UA-39568862-1"
-[params]
-author = "Marco Molteni"
-description = " "
-avatar = "marco.png"
+theme = "hugo-future-imperfect-master"
+preserveTaxonomyNames = true
 
+googleAnalytics = "UA-39568862-1"
+
+
+[params]
+  author = "Marco Molteni"
+  avatar = "marco.png"
+# future imp
+  # Sets the meta tag description
+  description          = "Java and Angular blog"
+  # Sets the navbarTitle that appears in the top left of the navigation bar
+  navbarTitle          = "Marco.Dev"
+  # Sets where "View More Posts" links
+  viewMorePostLink     = "/"
+  # Optional Params
+    # Sets navbarTitle to match the section of the website
+    dynamicTitles        = false
+    # Sets RSS icons to appear on the sidebar with the social media buttons
+    rssAppearAtTop       = false
+    rssAppearAtBottom    = true
+    # Sets Social Media icons to appear on the sidebar
+    socialAppearAtTop    = true
+    socialAppearAtBottom = true
+    # Sets Categories to sort by number of posts instead of alphabetical
+    categoriesByCount    = true
+    # set to show or to hide categories in the sidebar
+    showSidebarCategories = false
+    # Sets Estimated Reading Time to appear in post headers
+    includeReadingTime   = true
+    # Sets the Favicon and Version for the site. Default support is for
+    # apple-touch-icon-precomposed.png, favicon.png, favicon.ico, and mstile.png.
+    # These are stored in the favicon folder. See the following for more information:
+    # https://github.com/audreyr/favicon-cheat-sheet
+    loadFavicon          = false
+    faviconVersion       = ""
+    # Sets Social Share links to appear on posts
+    socialShare          = true
+    # Sets specific share to appear on posts (default behavior is to appear)
+    socialShareTwitter   = true
+    socialShareGoogleplus = false
+    socialShareFacebook  = false
+    socialShareReddit    = false
+    socialShareLinkedin  = true
+    socialShareStumbleupon = false
+    socialSharePinterest = false
+    socialShareEmail     = false
+
+
+pluralizeListTitles = false
+# Set the followings to true as part of your site SEO
+enableRobotsTXT = true
+canonifyURLs = true
+[params.intro]
+  header    = "Java and Angular blog"
+  paragraph = ""
+  about     = "Marco Molteni, consultant"
 [[params.social]]
   name = "github"
   url = "https://github.com/marco76"
@@ -16,3 +67,67 @@ avatar = "marco.png"
     url = "https://twitter.com/marcomolteni"
 [markup.goldmark.renderer]
 unsafe= true
+
+# This appears at the top of the sidebar above params.intro.header.
+  # A width of less than 100px is recommended from a design perspective.
+  [params.intro.pic]
+    src       = "/assets/img/marco.png"
+    # Sets Image to be a cirlce
+    circle    = true
+    # Sets Image to be Future Imperfect's hexagon
+    imperfect = false
+    width     = ""
+    alt       = "Marco Molteni"
+
+# Sets the menu items in the navigation bar
+# Identifier prepends a Font Awesome icon to the menu item
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  identifier = "fa fa-home"
+  weight = 1
+
+## [[menu.main]]
+##  name = "Blog"
+##  url = "/post/"
+##  identifier = "fa fa-newspaper-o"
+##  weight = 3
+
+[[menu.main]]
+  name = "Categories"
+  url = "/categories/"
+  identifier = "fa fa-sitemap"
+  weight = 5
+
+# Sets Social Media icons to appear and link to your account. Value should be your
+# username unless otherwise noted. These are the icons affected by socialAppearAtTop
+# and socialAppearAtBottom.
+[social]
+  # Coding Communities
+  github           = "marco76"
+  gitlab           = ""
+  stackoverflow    = "" # User Number
+  bitbucket        = ""
+  jsfiddle         = ""
+  codepen          = ""
+  # Publishing Communities
+  wordpress        = ""
+  medium           = ""
+  # Professional/Business Oriented Communities
+  linkedin         = "javaee"
+  linkedin_company = ""
+  xing             = ""
+  slideshare       = ""
+  # Social Networks
+ vimeo            = ""
+  twitter          = "marcomolteni"
+  skype            = ""
+  snapchat         = ""
+
+# Load custom CSS or JavaScript files. The variable is an array so that you
+  # can load multiple files if necessary. You can also load the standard theme
+  # files by adding the value, "default".
+  # customCSS            = ["default", "/path/to/file"]
+  # customJS             = ["default", "/path/to/file"]
+  customCSS            = ["default","/assets/css/marco.css"]
+  customJS             = ["default"]

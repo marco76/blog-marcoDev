@@ -1,0 +1,48 @@
+<div class="posts-container">
+    {{ $.Scratch.Set "recentPosts" .Site.Pages }}
+
+    {{ with .Site.Params.postAmount.sidebar }}
+    {{ $.Scratch.Set "postLimit" . }}
+    {{ else }}
+    {{ $.Scratch.Set "postLimit" 50 }}
+    {{ end }}
+
+    {{ range first ($.Scratch.Get "postLimit") (where ($.Scratch.Get "recentPosts") "Type" "post") }}
+    {{ if isset .Params "tags" }}
+
+        {{ $tagsLen := len .Params.tags }}
+            {{ if gt $tagsLen 0 }}
+                {{ range first 1 .Params.tags}}
+               {{ $.Scratch.Set "tagOne" .}}
+    {{end}}
+    {{ end }}
+    {{ end }}
+    <article class="mini-post post-{{$.Scratch.Get "tagOne"}}">
+        <header>
+            <div>
+            <h3>
+                <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+
+            </h3>
+                {{ $.Scratch.Set "dateType" .Date }}
+                <time class="published" datetime='{{ ($.Scratch.Get "dateType").Format "2006-01-02" }}'>
+                    {{ ($.Scratch.Get "dateType").Format "January 2, 2006" }}
+                </time>
+            </div>
+            <div>
+                {{ if isset .Params "tags" }}
+                    {{ $tagsLen := len .Params.tags }}
+                    {{ if gt $tagsLen 0 }}
+                        <i class="fa fa-tags"></i>
+                        {{ range $k, $v := .Params.tags }}
+                            {{ $url := printf "tags/%s" (. | urlize | lower) }}
+                            <a class="article-category-link" href="{{ $url | absLangURL }}">{{ . }}</a></li>
+                        {{ end }}
+                    {{ end }}
+                {{ end }}
+            </div>
+        </header>
+        {{ .Render "featured" }}
+    </article>
+    {{ end }}
+</div>
