@@ -3,7 +3,7 @@ publish = "public"
 command = "hugo --gc --minify"
 
 [build.environment]
-HUGO_THEME = "Future Imperfect"
+HUGO_THEME = "hugo-future-imperfect-master"
 
 [context.production.environment]
 HUGO_VERSION = "0.63.2"
